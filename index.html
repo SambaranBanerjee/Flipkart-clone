@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipcart</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .body{
+            background-color: #F1F2F4;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+
+   <section id="categories" style="display: flex;justify-content:space-around;"></section>
+   <section id="carousel"></section>
+   <section id="footer">
+        <div>
+            <li class="heading">About</li>
+            <li>About Us</li>
+            <li>Career</li>
+            <li>Flipkart Stories</li>
+            <li>Cleartrip</li>
+        </div>
+        <div>
+            <li class="heading">Help</li>
+            <li>About Us</li>
+            <li>Career</li>
+            <li>Flipkart Stories</li>
+            <li>Cleartrip</li>
+        </div>
+        <div>
+            <li class="heading">CONUSMER POLICY</li>
+            <li>About Us</li>
+            <li>Career</li>
+            <li>Flipkart Stories</li>
+            <li>Cleartrip</li>
+        </div>
+        <div>
+            <li class="heading">Social</li>
+            <li>Instagram</li>
+            <li>LinkedIn</li>
+            <li>Facebook</li>
+            <li>X</li>
+        </div>
+        <div>
+            <li class="heading">Address</li>
+            <li>About Us</li>
+            <li>Career</li>
+            <li>Flipkart Stories</li>
+            <li>Cleartrip</li>
+        </div>
+        <div>
+            <li class="heading">Contact us</li>
+            <li>About Us</li>
+            <li>Career</li>
+            <li>Flipkart Stories</li>
+            <li>Cleartrip</li>
+        </div>
+  </section>
+   <script>
+    $(function(){
+        $("#container").load("./navbar.html");
+    });
+
+    $(function(){
+        $("#carousel").load("./carousel.html");
+    });
+    </script>
+</body>
+</html>

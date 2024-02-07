@@ -1,0 +1,53 @@
+#outerbox{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+#innerbox{
+    display:flex;
+    background-color: white;
+    width:840px;
+    height: 500px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);
+}
+#lbox{
+    background-color: #2874F0;
+    color: white;
+    font-family: sans-serif;
+    width: 45%;
+    padding: 40px 33px;
+    font-size:15px;
+}
+#rbox{
+    font-family: sans-serif;
+    width: 55%;
+}
+.para1{
+    font-size:28px;
+    font-weight: 500;
+}
+.para2{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.mobile,.password,.name{
+    padding:8px 10px 10px 0;
+    width:66%;
+    color: #000;
+    background: #fff;
+    border:none;
+    border-bottom: 1px solid #e0e0e0;
+    margin-left:50px;
+    margin-top:50px;
+}
+#message1{
+    font-size: 12px;
+    font-weight:400;
+    display:flex;
+    justify-content: center;
+    margin-top:15px;
+}

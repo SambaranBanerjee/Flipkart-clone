@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+    <div id="outerbox" >
+        <div id="innerbox">
+            <div id="lbox">
+                <p class="para1">Looks like you're new here!</p>
+                <p class="para2">Sign up with your mobile number to get started</p>
+                <div style="display: flex;flex-direction: column;align-items: center;justify-content: baseline;margin-top: 30px;width: 75%;">
+                    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png" alt="hero_signup">
+                </div>
+            </div>
+            <div id="rbox">
+                <div>
+                    <input id="mobile" class="mobile" type="text" placeholder="Enter Mobile Number"/>
+                </div>
+                <div>
+                    <input id="pass" class="password" type="password" placeholder="Enter Password"/>
+                </div>
+                <div id="message1">
+                    <p>By continuing, you agree to Flipkart's <span style="color: #2897F5;">Terms of User</span> and <span style="color: #2897F5;">Privcy Policy.</span>
+                </div>
+                <div style="margin-top:20px;padding: 10px; display: flex;justify-content: center;">
+                    <button onclick="Signin()" style="border: none;width:90%;background-color:#FB641B;color: #FFF;padding:15px 25px;">LOGIN</button>
+                </div>
+                <div style="display: flex;justify-content: center;margin-top:20px;">
+                    <button style="color: #000000;padding:15px 25px;background-color:white;border: none;box-shadow: 0 2px 4px 0 rgba(0,0,0,.08);width:90%;">Not Existing user?<span style="color: #2897F5;" onclick="window.location.href='signup.html'">Sign up</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function(){
+        $("#container").load("./navbar.html");
+      });
+    
+      </script>
+      <script src="./Signin.js"></script>
+</body>
+</html>
